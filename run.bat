@@ -3,19 +3,19 @@ title angular-practice
 cd /d "%~dp0"
 
 echo === Installing ===
-call npm install
+call pnpm install
 
 echo.
 echo === Formatting ===
-call npm run format 2>nul
+call pnpm run format 2>nul
 if %ERRORLEVEL% NEQ 0 echo No format script
 
 echo === Linting ===
-call npm run lint 2>nul
+call pnpm run lint 2>nul
 if %ERRORLEVEL% NEQ 0 echo No lint script
 
 echo.
 echo === Starting ===
-call npm run start
+call pnpm run start
 
 pause
