@@ -60,3 +60,12 @@ This project consolidates 3 former standalone practice projects:
 - `email-Sender` â€” Angular 8 email client with Semantic UI
 
 The original projects were merged into route-based demos here.
+
+## Included Guide Website
+
+| Folder | Topic |
+|--------|-------|
+| seshu-angular-guide-website/ | Angular guide dashboard (Next.js) |
+
+Standalone Next.js content site — run 
+pm install && npm run dev inside the folder.
