@@ -65,7 +65,7 @@ The original projects were merged into route-based demos here.
 
 | Folder | Topic |
 |--------|-------|
-| seshu-angular-guide-website/ | Angular guide dashboard (Next.js) |
+| angular-guide-website/ | Angular guide dashboard (Next.js) |
 
-Standalone Next.js content site — run 
+Standalone Next.js content site ï¿½ run 
 pm install && npm run dev inside the folder.
